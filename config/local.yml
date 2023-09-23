@@ -1,0 +1,16 @@
+env: local
+storage:
+  type: "sqlite"
+  config:
+    sqlite_path: "./storage/url.db"
+    mongo_url: "mongodb://localhost:27017"
+http_server:
+  address: "http://localhost:8082"
+  timeout: 4s
+  idle_timeout: 60s
+github:
+  client_id: "4d8153c2003fada86768"
+  client_secret: "091abc0c1b999458d30ab60c70b8bd4035cb10ef"
+auth:
+  jwt_secret_key: "secret"
+  git_hub_org: "My1OrganizationOnGithub"

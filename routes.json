@@ -1,0 +1,47 @@
+[
+  {
+    "method": "GET",
+    "path": "/auth/oauth/github/callback",
+    "name": "shorter-url/internal/server/handlers.HandleGitHubAuthCallback.func1"
+  },
+  {
+    "method": "GET",
+    "path": "/auth/token.html",
+    "name": "shorter-url/internal/server/handlers.HandleTokenPage.func1"
+  },
+  {
+    "method": "echo_route_not_found",
+    "path": "/api",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "echo_route_not_found",
+    "path": "/api/*",
+    "name": "github.com/labstack/echo/v4.glob..func1"
+  },
+  {
+    "method": "GET",
+    "path": "/auth/oauth/github/link",
+    "name": "shorter-url/internal/server/handlers.HandleGetGitHubAuthLink.func1"
+  },
+  {
+    "method": "GET",
+    "path": "/static/*",
+    "name": "github.com/labstack/echo/v4.WrapHandler.func1"
+  },
+  {
+    "method": "POST",
+    "path": "/api/short",
+    "name": "shorter-url/internal/server/handlers.HandleShorten.func1"
+  },
+  {
+    "method": "GET",
+    "path": "/api/stats/:identifier",
+    "name": "shorter-url/internal/server/handlers.HandleStats.func1"
+  },
+  {
+    "method": "GET",
+    "path": "/:identifier",
+    "name": "shorter-url/internal/server/handlers.HandleRedirect.func1"
+  }
+]
